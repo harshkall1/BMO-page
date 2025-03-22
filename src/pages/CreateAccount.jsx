@@ -13,6 +13,8 @@ const CreateAccount = () => {
         phoneNo: "",
         password: "",
         amount: 0,
+        bankname: "BMO Bank"
+
     });
 
     // State for loading
@@ -51,6 +53,7 @@ const CreateAccount = () => {
                 phoneNo: "",
                 password: "",
                 amount: 0,
+                bankname: "BMO Bank"
             });
 
             // Navigate to a confirmation page
